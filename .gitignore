@@ -25,4 +25,5 @@
 # Ignore database
 /mariadb-data
 
+/web/themes/custom/*
 
