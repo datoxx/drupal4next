@@ -1,0 +1,30 @@
+uuid: f6ffe027-355b-4c30-8343-fb6de5c85dae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.headphone.field_product_header
+    - node.type.headphone
+  module:
+    - entity_reference_revisions
+    - user
+id: node.headphone.default
+targetEntityType: node
+bundle: headphone
+mode: default
+content:
+  field_product_header:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

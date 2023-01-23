@@ -1,4 +1,4 @@
-uuid: 82e53c01-aab5-4761-9a06-2f3a568373c4
+uuid: 34ef1d44-666c-40a9-a1d4-4c6a52d5bb87
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,12 @@ dependencies:
 third_party_settings:
   menu_ui:
     available_menus:
+      - footer
       - main
     parent: 'main:'
-name: product
-type: product
-description: ''
+name: headphone
+type: headphone
+description: 'headphone type'
 help: ''
 new_revision: true
 preview_mode: 1

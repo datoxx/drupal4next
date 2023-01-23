@@ -1,0 +1,22 @@
+uuid: 74dada84-851f-444a-85f8-6e23e3422b68
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: earphone
+label: earphone
+type: 'canonical_entities:node'
+pattern: 'earphone/[node:title]'
+selection_criteria:
+  17269c2e-472e-4101-8658-1d72a46a9729:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 17269c2e-472e-4101-8658-1d72a46a9729
+    context_mapping:
+      node: node
+    bundles:
+      earphone: earphone
+selection_logic: and
+weight: 0
+relationships: {  }

@@ -1,0 +1,30 @@
+uuid: 67c997b4-220f-49ca-9c69-b5d49dd81c06
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.speaker.field_product_header
+    - node.type.speaker
+  module:
+    - entity_reference_revisions
+    - user
+id: node.speaker.default
+targetEntityType: node
+bundle: speaker
+mode: default
+content:
+  field_product_header:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

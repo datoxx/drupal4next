@@ -1,0 +1,24 @@
+uuid: a0f22045-76c5-40c2-8faa-9c66912ae221
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.earphone.field_features
+    - field.field.node.earphone.field_product_header
+    - node.type.earphone
+  module:
+    - user
+id: node.earphone.teaser
+targetEntityType: node
+bundle: earphone
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_features: true
+  field_product_header: true

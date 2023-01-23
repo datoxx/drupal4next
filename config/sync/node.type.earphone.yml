@@ -1,0 +1,19 @@
+uuid: 0b3f22a2-adc8-4d87-a777-9cfc76859e0d
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - footer
+      - main
+    parent: 'main:'
+name: earphone
+type: earphone
+description: 'earphone type'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

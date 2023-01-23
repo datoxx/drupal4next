@@ -1,0 +1,19 @@
+uuid: f15a186b-326a-4b41-9947-9cacef9c86a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_subline
+    - paragraphs.paragraphs_type.product
+id: paragraph.product.field_subline
+field_name: field_subline
+entity_type: paragraph
+bundle: product
+label: Subline
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

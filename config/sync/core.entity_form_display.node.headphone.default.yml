@@ -1,16 +1,16 @@
-uuid: 00a7d12e-24fb-41e6-8581-a65f9b61e024
+uuid: 87d4f924-17cc-4a1e-bdae-8684d8f21b9e
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.product.field_description
-    - node.type.product
+    - field.field.node.headphone.field_product_header
+    - node.type.headphone
   module:
+    - entity_reference_revisions
     - path
-    - text
-id: node.product.default
+id: node.headphone.default
 targetEntityType: node
-bundle: product
+bundle: headphone
 mode: default
 content:
   created:
@@ -19,12 +19,14 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_description:
-    type: text_textarea
-    weight: 122
+  field_product_header:
+    type: entity_reference_revisions_autocomplete
+    weight: 121
     region: content
     settings:
-      rows: 5
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
       placeholder: ''
     third_party_settings: {  }
   path:

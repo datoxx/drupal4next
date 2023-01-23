@@ -1,0 +1,31 @@
+uuid: f9bf57bf-be1c-4602-a055-0a5dcc96c17c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_product_header
+    - node.type.headphone
+    - paragraphs.paragraphs_type.product
+  module:
+    - entity_reference_revisions
+id: node.headphone.field_product_header
+field_name: field_product_header
+entity_type: node
+bundle: headphone
+label: 'product header'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      product: product
+    negate: 0
+    target_bundles_drag_drop:
+      product:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

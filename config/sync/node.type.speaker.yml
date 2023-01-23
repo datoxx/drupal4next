@@ -1,0 +1,19 @@
+uuid: 467e8804-d9c9-447e-9481-52c881bb36be
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - footer
+      - main
+    parent: 'main:'
+name: speaker
+type: speaker
+description: 'speaker type'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

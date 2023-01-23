@@ -1,16 +1,16 @@
-uuid: 01c04fe2-b32a-49bb-9486-015867125529
+uuid: b2086096-acf7-4856-9230-a1a5cfeb6406
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.product.field_description
-    - node.type.product
+    - field.field.node.headphone.field_product_header
+    - node.type.headphone
   module:
     - user
-id: node.product.teaser
+id: node.headphone.teaser
 targetEntityType: node
-bundle: product
+bundle: headphone
 mode: teaser
 content:
   links:
@@ -19,4 +19,4 @@ content:
     weight: 100
     region: content
 hidden:
-  field_description: true
+  field_product_header: true

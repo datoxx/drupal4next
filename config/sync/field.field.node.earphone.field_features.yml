@@ -1,0 +1,21 @@
+uuid: a3adeab3-1b79-427b-a2e1-661526c39a92
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_features
+    - node.type.earphone
+  module:
+    - text
+id: node.earphone.field_features
+field_name: field_features
+entity_type: node
+bundle: earphone
+label: features
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

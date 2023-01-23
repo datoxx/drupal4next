@@ -1,0 +1,22 @@
+uuid: b6ace18a-b5bb-47b3-8bd4-6c3c50e7f98f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: headphone
+label: headphone
+type: 'canonical_entities:node'
+pattern: 'headphone/[node:title]'
+selection_criteria:
+  43b461ba-02fc-4c7e-b101-a89b76c9341d:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 43b461ba-02fc-4c7e-b101-a89b76c9341d
+    context_mapping:
+      node: node
+    bundles:
+      headphone: headphone
+selection_logic: and
+weight: -5
+relationships: {  }

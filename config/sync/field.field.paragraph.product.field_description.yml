@@ -1,19 +1,19 @@
-uuid: c1e7a4cb-4e43-4294-93e1-231aa70da483
+uuid: c6bee987-dc0d-4207-abfb-fcc7490653c8
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_description
-    - node.type.product
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.product
   module:
     - text
-id: node.product.field_description
+id: paragraph.product.field_description
 field_name: field_description
-entity_type: node
+entity_type: paragraph
 bundle: product
 label: description
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''

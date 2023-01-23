@@ -1,0 +1,31 @@
+uuid: f07e1eec-da22-4351-beab-d4de4e5c4247
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_product_header
+    - node.type.speaker
+    - paragraphs.paragraphs_type.product
+  module:
+    - entity_reference_revisions
+id: node.speaker.field_product_header
+field_name: field_product_header
+entity_type: node
+bundle: speaker
+label: 'product header'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      product: product
+    negate: 0
+    target_bundles_drag_drop:
+      product:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

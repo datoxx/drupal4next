@@ -1,0 +1,22 @@
+uuid: 5014fc84-1ed6-4d42-91d8-7938b9da5200
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.speaker.field_product_header
+    - node.type.speaker
+  module:
+    - user
+id: node.speaker.teaser
+targetEntityType: node
+bundle: speaker
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_product_header: true
