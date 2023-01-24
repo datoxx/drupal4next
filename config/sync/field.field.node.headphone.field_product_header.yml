@@ -1,4 +1,4 @@
-uuid: f9bf57bf-be1c-4602-a055-0a5dcc96c17c
+uuid: 2170d879-3d1e-4a5b-a7fe-1384743c8eef
 langcode: en
 status: true
 dependencies:
@@ -15,7 +15,7 @@ bundle: headphone
 label: 'product header'
 description: ''
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

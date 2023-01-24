@@ -1,0 +1,21 @@
+uuid: 38f2e0e0-c03d-465c-9a5b-76e9f8ec7f74
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_general_paragraph_body
+    - paragraphs.paragraphs_type.general_text_and_photo_paragraph
+  module:
+    - text
+id: paragraph.general_text_and_photo_paragraph.field_general_paragraph_body
+field_name: field_general_paragraph_body
+entity_type: paragraph
+bundle: general_text_and_photo_paragraph
+label: 'general paragraph body'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -5,7 +5,12 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.earphone.field_features
+    - field.field.node.earphone.field_general_paragraph
+    - field.field.node.earphone.field_in_the_box
+    - field.field.node.earphone.field_product_category_list
+    - field.field.node.earphone.field_product_gallery
     - field.field.node.earphone.field_product_header
+    - field.field.node.earphone.field_products_also_like
     - node.type.earphone
   module:
     - user
@@ -21,4 +26,9 @@ content:
     region: content
 hidden:
   field_features: true
+  field_general_paragraph: true
+  field_in_the_box: true
+  field_product_category_list: true
+  field_product_gallery: true
   field_product_header: true
+  field_products_also_like: true

@@ -1,0 +1,49 @@
+uuid: 05dafbba-132b-4eee-84d5-27173d920bf2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_product_category_child_ele
+    - paragraphs.paragraphs_type.prodcut_category_element
+    - paragraphs.paragraphs_type.product_category
+  module:
+    - entity_reference_revisions
+id: paragraph.product_category.field_product_category_child_ele
+field_name: field_product_category_child_ele
+entity_type: paragraph
+bundle: product_category
+label: 'product category child element'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      prodcut_category_element: prodcut_category_element
+    negate: 0
+    target_bundles_drag_drop:
+      gallery:
+        weight: 8
+        enabled: false
+      may_also_like_:
+        weight: 9
+        enabled: false
+      prodcut_category_element:
+        weight: 10
+        enabled: true
+      product:
+        weight: 11
+        enabled: false
+      product_box:
+        weight: 12
+        enabled: false
+      product_category:
+        weight: 13
+        enabled: false
+      you_also_like_element:
+        weight: 14
+        enabled: false
+field_type: entity_reference_revisions

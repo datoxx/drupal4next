@@ -1,0 +1,24 @@
+uuid: 7531d7e2-3b1e-439e-a0ce-8c6305505a70
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.product_category.field_product_category_child_ele
+    - paragraphs.paragraphs_type.product_category
+  module:
+    - entity_reference_revisions
+id: paragraph.product_category.default
+targetEntityType: paragraph
+bundle: product_category
+mode: default
+content:
+  field_product_category_child_ele:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

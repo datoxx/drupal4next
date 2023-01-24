@@ -1,0 +1,52 @@
+uuid: 23af399c-c959-4264-a919-5abe44d032eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_general_paragraph
+    - node.type.speaker
+    - paragraphs.paragraphs_type.general_text_and_photo_paragraph
+  module:
+    - entity_reference_revisions
+id: node.speaker.field_general_paragraph
+field_name: field_general_paragraph
+entity_type: node
+bundle: speaker
+label: 'general paragraph'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      general_text_and_photo_paragraph: general_text_and_photo_paragraph
+    negate: 0
+    target_bundles_drag_drop:
+      gallery:
+        weight: 9
+        enabled: false
+      general_text_and_photo_paragraph:
+        weight: 10
+        enabled: true
+      may_also_like_:
+        weight: 11
+        enabled: false
+      prodcut_category_element:
+        weight: 12
+        enabled: false
+      product:
+        weight: 13
+        enabled: false
+      product_box:
+        weight: 14
+        enabled: false
+      product_category:
+        weight: 15
+        enabled: false
+      you_also_like_element:
+        weight: 16
+        enabled: false
+field_type: entity_reference_revisions

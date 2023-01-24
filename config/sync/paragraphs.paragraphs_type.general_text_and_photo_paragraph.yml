@@ -1,0 +1,10 @@
+uuid: 2dbe7d88-d72f-469f-9c4d-f849ddcd89ef
+langcode: en
+status: true
+dependencies: {  }
+id: general_text_and_photo_paragraph
+label: 'general text and photo paragraph'
+icon_uuid: null
+icon_default: null
+description: 'general text and photo paragraph'
+behavior_plugins: {  }

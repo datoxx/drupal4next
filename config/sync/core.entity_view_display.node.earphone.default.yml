@@ -4,7 +4,12 @@ status: true
 dependencies:
   config:
     - field.field.node.earphone.field_features
+    - field.field.node.earphone.field_general_paragraph
+    - field.field.node.earphone.field_in_the_box
+    - field.field.node.earphone.field_product_category_list
+    - field.field.node.earphone.field_product_gallery
     - field.field.node.earphone.field_product_header
+    - field.field.node.earphone.field_products_also_like
     - node.type.earphone
   module:
     - entity_reference_revisions
@@ -20,7 +25,43 @@ content:
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 102
+    weight: 1
+    region: content
+  field_general_paragraph:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_in_the_box:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_product_category_list:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_product_gallery:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 3
     region: content
   field_product_header:
     type: entity_reference_revisions_entity_view
@@ -29,11 +70,20 @@ content:
       view_mode: default
       link: ''
     third_party_settings: {  }
-    weight: 101
+    weight: 0
+    region: content
+  field_products_also_like:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 4
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 7
     region: content
 hidden: {  }

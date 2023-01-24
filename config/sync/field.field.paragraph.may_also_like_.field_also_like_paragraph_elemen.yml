@@ -1,0 +1,43 @@
+uuid: c0c0a7e4-8dbc-4d79-980f-541034532f4f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_also_like_paragraph_elemen
+    - paragraphs.paragraphs_type.may_also_like_
+    - paragraphs.paragraphs_type.you_also_like_element
+  module:
+    - entity_reference_revisions
+id: paragraph.may_also_like_.field_also_like_paragraph_elemen
+field_name: field_also_like_paragraph_elemen
+entity_type: paragraph
+bundle: may_also_like_
+label: 'also like paragraph element'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      you_also_like_element: you_also_like_element
+    negate: 0
+    target_bundles_drag_drop:
+      gallery:
+        weight: 6
+        enabled: false
+      may_also_like_:
+        weight: 7
+        enabled: false
+      product:
+        weight: 8
+        enabled: false
+      product_box:
+        weight: 9
+        enabled: false
+      you_also_like_element:
+        weight: 10
+        enabled: true
+field_type: entity_reference_revisions

@@ -1,0 +1,23 @@
+uuid: d267b7a4-08c3-4330-a3d8-4c4e52472132
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_category_link
+    - paragraphs.paragraphs_type.prodcut_category_element
+  module:
+    - link
+id: paragraph.prodcut_category_element.field_category_link
+field_name: field_category_link
+entity_type: paragraph
+bundle: prodcut_category_element
+label: 'category link'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

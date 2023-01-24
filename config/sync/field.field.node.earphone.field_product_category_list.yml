@@ -1,0 +1,49 @@
+uuid: 90dc0290-54a5-4e75-a634-a1cb62e25ec4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_product_category_list
+    - node.type.earphone
+    - paragraphs.paragraphs_type.product_category
+  module:
+    - entity_reference_revisions
+id: node.earphone.field_product_category_list
+field_name: field_product_category_list
+entity_type: node
+bundle: earphone
+label: 'product category list'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      product_category: product_category
+    negate: 0
+    target_bundles_drag_drop:
+      gallery:
+        weight: 8
+        enabled: false
+      may_also_like_:
+        weight: 9
+        enabled: false
+      prodcut_category_element:
+        weight: 10
+        enabled: false
+      product:
+        weight: 11
+        enabled: false
+      product_box:
+        weight: 12
+        enabled: false
+      product_category:
+        weight: 13
+        enabled: true
+      you_also_like_element:
+        weight: 14
+        enabled: false
+field_type: entity_reference_revisions

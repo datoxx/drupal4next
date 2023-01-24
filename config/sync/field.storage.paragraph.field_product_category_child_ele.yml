@@ -1,0 +1,20 @@
+uuid: 78042c1c-b5c8-4140-bb27-c02330a21464
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - paragraphs
+id: paragraph.field_product_category_child_ele
+field_name: field_product_category_child_ele
+entity_type: paragraph
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: 3
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

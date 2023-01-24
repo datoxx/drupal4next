@@ -1,0 +1,49 @@
+uuid: 1c814bd8-e12d-45d5-ba57-3125e0a3141a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.prodcut_category_element.field_category_image
+    - field.field.paragraph.prodcut_category_element.field_category_link
+    - field.field.paragraph.prodcut_category_element.field_category_name
+    - paragraphs.paragraphs_type.prodcut_category_element
+  module:
+    - image
+    - link
+id: paragraph.prodcut_category_element.default
+targetEntityType: paragraph
+bundle: prodcut_category_element
+mode: default
+content:
+  field_category_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_category_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_category_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

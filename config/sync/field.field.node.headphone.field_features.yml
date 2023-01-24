@@ -1,0 +1,21 @@
+uuid: ef729682-0913-4ce7-8770-9ff915447867
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_features
+    - node.type.headphone
+  module:
+    - text
+id: node.headphone.field_features
+field_name: field_features
+entity_type: node
+bundle: headphone
+label: features
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

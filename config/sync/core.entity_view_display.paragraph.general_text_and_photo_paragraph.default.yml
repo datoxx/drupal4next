@@ -1,0 +1,43 @@
+uuid: ca3e41b6-84a9-4aa7-bd85-1f49462cd979
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.general_text_and_photo_paragraph.field_general_paragraph_body
+    - field.field.paragraph.general_text_and_photo_paragraph.field_headline
+    - field.field.paragraph.general_text_and_photo_paragraph.field_image
+    - paragraphs.paragraphs_type.general_text_and_photo_paragraph
+  module:
+    - image
+    - text
+id: paragraph.general_text_and_photo_paragraph.default
+targetEntityType: paragraph
+bundle: general_text_and_photo_paragraph
+mode: default
+content:
+  field_general_paragraph_body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_headline:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

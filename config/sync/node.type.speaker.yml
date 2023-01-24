@@ -1,4 +1,4 @@
-uuid: 467e8804-d9c9-447e-9481-52c881bb36be
+uuid: 6e43f1ec-f88f-4ebd-a093-cfccd9bb7e56
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ third_party_settings:
     parent: 'main:'
 name: speaker
 type: speaker
-description: 'speaker type'
+description: 'earphone type'
 help: ''
 new_revision: true
 preview_mode: 1

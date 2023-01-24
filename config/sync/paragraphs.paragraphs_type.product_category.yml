@@ -1,0 +1,10 @@
+uuid: d99c2982-b9ac-49ae-8c9f-4c8c6027f7f9
+langcode: en
+status: true
+dependencies: {  }
+id: product_category
+label: 'product category'
+icon_uuid: null
+icon_default: null
+description: 'product category paragraph'
+behavior_plugins: {  }

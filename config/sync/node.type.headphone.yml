@@ -1,4 +1,4 @@
-uuid: 34ef1d44-666c-40a9-a1d4-4c6a52d5bb87
+uuid: 66bc22d2-a37f-41f9-8fd6-624172bf8c43
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ third_party_settings:
     parent: 'main:'
 name: headphone
 type: headphone
-description: 'headphone type'
+description: 'earphone type'
 help: ''
 new_revision: true
 preview_mode: 1

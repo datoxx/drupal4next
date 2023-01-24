@@ -1,0 +1,10 @@
+uuid: 9e270525-e8ee-4358-ba1b-fa469d58d863
+langcode: en
+status: true
+dependencies: {  }
+id: gallery
+label: gallery
+icon_uuid: null
+icon_default: null
+description: 'product photo  gallery '
+behavior_plugins: {  }

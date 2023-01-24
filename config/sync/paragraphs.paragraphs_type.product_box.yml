@@ -1,0 +1,10 @@
+uuid: 963d6b8b-257a-428b-9fbb-71a0e4245142
+langcode: en
+status: true
+dependencies: {  }
+id: product_box
+label: 'product box'
+icon_uuid: null
+icon_default: null
+description: 'product box paragraph'
+behavior_plugins: {  }

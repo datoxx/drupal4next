@@ -1,0 +1,19 @@
+uuid: 322442de-ac7a-4d90-b3dc-fbe07a0a4c91
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_category_name
+    - paragraphs.paragraphs_type.prodcut_category_element
+id: paragraph.prodcut_category_element.field_category_name
+field_name: field_category_name
+entity_type: paragraph
+bundle: prodcut_category_element
+label: 'category name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

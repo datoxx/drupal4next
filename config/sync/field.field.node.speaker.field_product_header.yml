@@ -1,4 +1,4 @@
-uuid: f07e1eec-da22-4351-beab-d4de4e5c4247
+uuid: 3aed91d7-edf0-4cd7-822c-ac9f547c9bf6
 langcode: en
 status: true
 dependencies:
@@ -15,7 +15,7 @@ bundle: speaker
 label: 'product header'
 description: ''
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

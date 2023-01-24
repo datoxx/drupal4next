@@ -1,0 +1,20 @@
+uuid: 17b1a558-23ef-4f79-bc85-f6435d79e50f
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - paragraphs
+id: paragraph.field_also_like_paragraph_elemen
+field_name: field_also_like_paragraph_elemen
+entity_type: paragraph
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: 3
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

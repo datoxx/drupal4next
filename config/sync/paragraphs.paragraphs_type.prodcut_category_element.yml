@@ -1,0 +1,10 @@
+uuid: 7af3bb13-c9d1-4139-af26-38ce236e99c5
+langcode: en
+status: true
+dependencies: {  }
+id: prodcut_category_element
+label: 'prodcut category element'
+icon_uuid: null
+icon_default: null
+description: 'prodcut category element paragraph'
+behavior_plugins: {  }

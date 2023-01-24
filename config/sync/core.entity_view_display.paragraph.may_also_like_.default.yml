@@ -1,0 +1,24 @@
+uuid: 8d95010d-9383-4bf1-b869-4e7aa9c29789
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.may_also_like_.field_also_like_paragraph_elemen
+    - paragraphs.paragraphs_type.may_also_like_
+  module:
+    - entity_reference_revisions
+id: paragraph.may_also_like_.default
+targetEntityType: paragraph
+bundle: may_also_like_
+mode: default
+content:
+  field_also_like_paragraph_elemen:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

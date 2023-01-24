@@ -1,18 +1,68 @@
-uuid: f6ffe027-355b-4c30-8343-fb6de5c85dae
+uuid: 35028582-63e9-44bd-bfd4-97ecc614df83
 langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.headphone.field_features
+    - field.field.node.headphone.field_general_paragraph
+    - field.field.node.headphone.field_in_the_box
+    - field.field.node.headphone.field_product_category_list
+    - field.field.node.headphone.field_product_gallery
     - field.field.node.headphone.field_product_header
+    - field.field.node.headphone.field_products_also_like
     - node.type.headphone
   module:
     - entity_reference_revisions
+    - text
     - user
 id: node.headphone.default
 targetEntityType: node
 bundle: headphone
 mode: default
 content:
+  field_features:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_general_paragraph:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_in_the_box:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_product_category_list:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_product_gallery:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
   field_product_header:
     type: entity_reference_revisions_entity_view
     label: above
@@ -20,11 +70,20 @@ content:
       view_mode: default
       link: ''
     third_party_settings: {  }
-    weight: 101
+    weight: 0
+    region: content
+  field_products_also_like:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 4
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 7
     region: content
 hidden: {  }

@@ -1,0 +1,43 @@
+uuid: c5578ad7-9148-4f1e-a32f-6e95e182716b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_products_also_like
+    - node.type.earphone
+    - paragraphs.paragraphs_type.may_also_like_
+  module:
+    - entity_reference_revisions
+id: node.earphone.field_products_also_like
+field_name: field_products_also_like
+entity_type: node
+bundle: earphone
+label: 'products also like'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      may_also_like_: may_also_like_
+    negate: 0
+    target_bundles_drag_drop:
+      gallery:
+        weight: -11
+        enabled: false
+      may_also_like_:
+        weight: -10
+        enabled: true
+      product:
+        weight: -8
+        enabled: false
+      product_box:
+        weight: -7
+        enabled: false
+      you_also_like_element:
+        weight: -9
+        enabled: false
+field_type: entity_reference_revisions

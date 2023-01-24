@@ -1,0 +1,21 @@
+uuid: b1f28cf7-3292-465e-b082-194464aa3c66
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_features
+    - node.type.speaker
+  module:
+    - text
+id: node.speaker.field_features
+field_name: field_features
+entity_type: node
+bundle: speaker
+label: features
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

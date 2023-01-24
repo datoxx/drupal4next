@@ -1,0 +1,10 @@
+uuid: 91c6a469-08d6-4cea-bcc4-e52ead3f5f5c
+langcode: en
+status: true
+dependencies: {  }
+id: you_also_like_element
+label: 'you also like element'
+icon_uuid: null
+icon_default: null
+description: 'you also like child paragraph element'
+behavior_plugins: {  }
