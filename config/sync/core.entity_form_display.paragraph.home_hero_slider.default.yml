@@ -1,0 +1,64 @@
+uuid: 665d5085-6d65-423d-8c87-452bdfaf6acf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.home_hero_slider.field_description
+    - field.field.paragraph.home_hero_slider.field_headline
+    - field.field.paragraph.home_hero_slider.field_hero_prodcut_link
+    - field.field.paragraph.home_hero_slider.field_image
+    - field.field.paragraph.home_hero_slider.field_subline
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.home_hero_slider
+  module:
+    - image
+    - link
+    - text
+id: paragraph.home_hero_slider.default
+targetEntityType: paragraph
+bundle: home_hero_slider
+mode: default
+content:
+  field_description:
+    type: text_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_headline:
+    type: string_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_hero_prodcut_link:
+    type: link_default
+    weight: 4
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_image:
+    type: image_image
+    weight: 3
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_subline:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

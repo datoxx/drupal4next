@@ -1,16 +1,16 @@
-uuid: 51c2796d-1ba6-475a-a50f-f4c8310bed7b
+uuid: 2c4f28fc-3f65-4f23-979f-1089a8acf22b
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_image
-    - paragraphs.paragraphs_type.general_text_and_photo_paragraph
+    - paragraphs.paragraphs_type.home_hero_slider
   module:
     - image
-id: paragraph.general_text_and_photo_paragraph.field_image
+id: paragraph.home_hero_slider.field_image
 field_name: field_image
 entity_type: paragraph
-bundle: general_text_and_photo_paragraph
+bundle: home_hero_slider
 label: image
 description: ''
 required: true
@@ -30,9 +30,9 @@ settings:
   title_field: false
   title_field_required: false
   default_image:
-    uuid: df6b9deb-794e-4d63-bf22-e04e82a2a2bb
-    alt: 'share paragraph image'
+    uuid: ''
+    alt: ''
     title: ''
-    width: 540
-    height: 588
+    width: null
+    height: null
 field_type: image

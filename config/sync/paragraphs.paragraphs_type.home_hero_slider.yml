@@ -1,0 +1,10 @@
+uuid: 8067e316-8673-4d27-a8c1-c785b58ee730
+langcode: en
+status: true
+dependencies: {  }
+id: home_hero_slider
+label: 'home hero'
+icon_uuid: null
+icon_default: null
+description: 'home hero  paragraph'
+behavior_plugins: {  }

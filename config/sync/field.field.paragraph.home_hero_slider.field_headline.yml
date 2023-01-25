@@ -1,21 +1,19 @@
-uuid: 97a47d69-1443-40cd-a3dd-5417fe4af153
+uuid: 46610f17-de49-402f-a7d1-7eb028e5dceb
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_headline
-    - paragraphs.paragraphs_type.general_text_and_photo_paragraph
-id: paragraph.general_text_and_photo_paragraph.field_headline
+    - paragraphs.paragraphs_type.home_hero_slider
+id: paragraph.home_hero_slider.field_headline
 field_name: field_headline
 entity_type: paragraph
-bundle: general_text_and_photo_paragraph
+bundle: home_hero_slider
 label: Headline
 description: ''
 required: true
 translatable: true
-default_value:
-  -
-    value: 'Bringing you the best audio gear'
+default_value: {  }
 default_value_callback: ''
 settings: {  }
 field_type: string_long
